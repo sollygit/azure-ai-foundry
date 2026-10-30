@@ -1,0 +1,28 @@
+{
+	"description": "PDF travel documents analyzer ",
+	"baseAnalyzerId": "prebuilt-document",
+	"models": {
+		"completion": "gpt-5-mini",
+		"embedding": "text-embedding-3-large"
+	},
+	"config": {
+		"returnDetails": true
+	},
+	"fieldSchema": {
+		"fields": {
+			"Summary": {
+				"type": "string",
+				"method": "generate",
+				"description": "A brief summary of the document content"
+			},
+			"KeyTopics": {
+				"type": "array",
+				"method": "generate",
+				"description": "Key topics or themes covered in the document",
+				"items": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
