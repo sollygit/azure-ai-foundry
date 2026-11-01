@@ -20,6 +20,8 @@ Content Understanding uses OpenAI models for analysis that are deployed in your 
 
 ### Create an Azure AI Search resource
 
+![ai-search](./images/ai-search.jpg)
+
 1. In a new browser tab, open the [Azure portal](https://portal.azure.com) at `https://portal.azure.com` and sign in with your Azure credentials.
 1. Select **&#65291;Create a resource**, search for `Azure AI Search`, and create an **Azure AI Search** resource with the following settings:
     - **Subscription**: *Your Azure subscription*
