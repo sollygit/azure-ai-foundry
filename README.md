@@ -1,3 +1,5 @@
+![architecture](./images/rag-workflow.jpg)
+
 # Build an automated RAG ingestion pipeline with Content Understanding
 
 Retrieval-augmented generation (RAG) is a method that enhances Large Language Models (LLMs) by integrating data from external knowledge sources. In production scenarios, new documents arrive continuously and must be extracted, embedded, and indexed so they're available for search in near real-time.
